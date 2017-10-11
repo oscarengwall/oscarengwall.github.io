@@ -1,0 +1,23 @@
+body 	{background-color: saddlebrown; 
+		color: darkorange;
+		font-family: helvetica;
+		text-align: center;
+		}
+
+hr 		{width: 50%;
+		color: white;
+		}
+
+h1		{color: white;
+		}
+
+table 	{margin-right: auto;
+		margin-left: auto;
+		background-color: #993300;
+		border-size: medium;
+		border-color: firebrick;
+		padding: 8px;
+		}
+#disp	{border-size: medium;
+		border-color: red;
+		}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bean Counter</title>
+</head>
+<body>
+	<h2>Confirming that the bean counter works.</h2>
+	<script>
+		var drink = "latte";
+		var ounce = 12;
+		var shots = 2;
+		var taxRate = 0.088;
+		var price;
+	if (drink == "espresso")
+		price = 1.40;
+	if (drink == "latte" || drink == "cappuccino") {
+		if (ounce == 8)
+			price = 1.95;
+		if (ounce == 12)
+			price = 2.35;
+		if (ounce == 16)
+			price = 2.75;
+	}
+		if (drink == americano)
+			price = 1.20 + 0.30*(ounce/8);
+		price = price + (shots - 1)*0.50;
+		price = price + price*taxRate;
+		alert(price);
+	</script>
+</body>
+</html>
