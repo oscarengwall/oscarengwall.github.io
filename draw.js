@@ -1,5 +1,4 @@
 
-
 var drawModule = (function () { 
 
   var bodySnake = function(x, y) {
