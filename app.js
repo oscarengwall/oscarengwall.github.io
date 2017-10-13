@@ -1,42 +1,44 @@
-(function (window, docutment, drawModule, undifined) {
-	
-	var btn = document.getElementById('btn');
-	btn.addEventListener("click", function(){ drawModule.init();});
+(function (window, document, drawModule, undefined) {
 
-	docutment.onkeydown = function(event) {
+var btn = document.getElementById('btn');
+btn.addEventListener("click", function(){ drawModule.init();});
 
-		keyCode = window.event.keyCode;
-		keyCode = event.keyCode;
+	document.onkeydown = function(event) {
 
-		switch (keyCode) {
+        keyCode = window.event.keyCode; 
+        keyCode = event.keyCode;
 
-			case 37:
-				if (direction != 'right') {
-					direction = 'left';
-				}
-				console.log('left')
-				break;
+        switch(keyCode) {
+        
+        case 37: 
+          if (direction != 'right') {
+            direction = 'left';
+          }
+          console.log('left'); 
+          break;
 
-			case 39:
-				if (direction != 'left'){
-					direction = 'right';
-					console.log('right');
-				}
-				break;
+        case 39:
+          if (direction != 'left') {
+          direction = 'right';
+          console.log('right');
+          }
+          break;
 
-			case 38:
-				if (direction != 'down'){
-					direction = 'up';
-					console.log('up');
-				}
-				break;
-				
-			case 40:
-				if (direction != 'up'){
-					direction = 'down';
-					console.log('down';
-				}
-				break;
-				}
-			}
+        case 38:
+          if (direction != 'down') {
+          direction = 'up';
+          console.log('up');
+          }
+          break;
+
+        case 40:
+          if (direction != 'up') {
+          direction = 'down';
+          console.log('down');
+          }
+          break;
+          }
+      }
+
+
 })(window, document, drawModule);
