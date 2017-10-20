@@ -22,28 +22,6 @@ html {
 	text-align: center; /*makes everything in the box centered horisontally*/
 }
 
-.prof-box-app {
-	width: 400px;
-	height: 550px;
-	background: rgba(0,0,0,0.4); /*rgba = red, green, blue, transparent*/
-	padding: 20px;
-	color: white;
-	margin: 0 auto; /*makes the element centered horisontel*/
-	margin-top: 140px; /*makes the element box drops down to-ish centered vertically*/
-	text-align: center; /*makes everything in the box centered horisontally*/
-}
-
-.prof-box-con {
-	width: 400px;
-	height: 550px;
-	background: rgba(0,0,0,0.4); /*rgba = red, green, blue, transparent*/
-	padding: 20px;
-	color: white;
-	margin: 0 auto; /*makes the element centered horisontel*/
-	margin-top: 140px; /*makes the element box drops down to-ish centered vertically*/
-	text-align: center; /*makes everything in the box centered horisontally*/
-}
-
 .prof-pic {
 	border-radius: 50%;
 	height: 200px;
