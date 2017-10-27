@@ -1,0 +1,17 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  background: rgb(3, 40 ,83);
+}
+
+.wrapper {
+
+  border-radius: 50px;
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding-bottom: 100px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top: 50px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		var key = '24dc3f0c8fe9e5e475837d9c7c666437';
+		var url = 'http://api.openweathermap.org/data/2.5/forecast?q=Stockholm,SE&appid=' + key;
+
+		fetch(url)
+			.then(function(response) {
+				return response.json()
+			})
+			.then(function(response){
+				console.log(response.list[0].main.temp -273.15);
+
+				for (var i = 0; i < response.list.length; i++) {
+					console.log(response.list[i].main.temp -273.15);
+				}
+			});
+
+
+	</script>
+</body>
+</html>

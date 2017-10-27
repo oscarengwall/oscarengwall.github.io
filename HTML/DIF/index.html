@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Dif statistik 2017</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="master.css">
+
+</head>
+<body>
+    <div class="wrapper">
+    	<div class="header">
+    		<h1>Välkommen till Statistikbloggen för Djurgården</h1>
+    	</div>
+
+        <div class="chart1">
+        	<h2>Poängskörd per match över hela säsongen</h2>
+            <h4><p id='numberOfTypes'></p></h4>
+            <canvas id="myChart1" width="1600" height="900"></canvas>
+            <p id='numberOfTypes'></p>
+        </div>
+
+		<div class="chart2">
+        	<h2>Antalpoäng per match</h2>
+            <h4><p id='averagePoint'></p></h4>
+            <canvas id="myChart2" width="1600" height="900"></canvas>
+        	
+        </div>
+
+        <div class="chart3">
+        	<h2>Antal gjorda och insläppta mål över säsongen</h2>
+            <h4><p id='avergeFor'></p>
+            <p id='averageAgainst'></p>
+            <p id='averageTotal'></p></h4>
+            <canvas id="myChart3" width="1600" height="900"></canvas>    
+        </div>
+
+      	<div class="chart4">
+        	<h2>Poängliga i Djurgården</h2>
+            <h4><p id="totGoal"></p>
+            <p id="totAssist"></p></h4>
+            <canvas id="myChart4" width="1600" height="900"></canvas>    
+        </div>
+       	</br>
+       	<script id="tabell" type="text/javascript" src="http://svenskfotboll.se/widget.aspx?scr=table&amp;ftid=67049&amp;b1=%23233446&amp;f1=%23ffffff&amp;b2=%23acbfda&amp;f2=%23000000&amp;b3=%23ffffff&amp;f3=%23000000&amp;b4=%23ececec&amp;bo=%23000000&amp;s=1"></script>
+
+  	</div>
+  <script src="chart.js"></script>
+</body>
+
+
+
+
+</html>

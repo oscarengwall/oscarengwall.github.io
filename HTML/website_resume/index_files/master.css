@@ -1,0 +1,25 @@
+html {
+	background: url(../images/jon-flobrant-42711.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.prof-box {
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,0.4); /*rgba = red, green, blue, transparent*/
+	padding: 40px;
+	color: white;
+	margin: 0 auto; /*makes the element centered horisontel*/
+	margin-top: 140px; /*makes the element box drops down to-ish centered vertically*/
+	text-align: center; /*makes everything in the box centered horisontally*/
+}
+
+.prof-pic {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
